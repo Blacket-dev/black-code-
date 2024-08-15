@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Details</title>
+    <link rel="stylesheet" href="./css/tailwind-build.css">
+    <link rel="stylesheet" href="./css/tw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="content" class="tw-p-8 tw-flex-grow"></div>
+
+    <footer>
+        <div class="container">
+            <div>
+                <h2>Contact</h2>
+                <p>Email: forbetter@gmail.com</p>
+                <p>Phone: 0707490974</p>
+            </div>
+            <div>
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const content = document.getElementById('content');
+
+            const articles = {
+                'modern-frontend': {
+                    title: 'Modern Frontend Development Trends',
+                    image: './assets/images/home/forest.webp',
+                    description: `
+                        <div class="article-description">
+                            <p>Explore the latest trends in frontend development, including frameworks, libraries, and tools.</p>
+                            <p>Frontend development is constantly evolving, with new trends emerging regularly. Keeping up with these trends is crucial for developers who want to stay ahead in the industry.</p>
+                            <p>Some of the current trends in frontend development include:</p>
+                            <ul>
+                                <li>Using modern JavaScript frameworks like React, Vue, and Angular.</li>
+                                <li>Implementing Progressive Web Apps (PWAs) for better performance and offline capabilities.</li>
+                                <li>Adopting static site generators like Gatsby and Next.js for improved speed and SEO.</li>
+                                <li>Utilizing CSS-in-JS solutions for more dynamic styling.</li>
+                                <li>Emphasizing accessibility to ensure all users can interact with web applications.</li>
+                            </ul>
+                        </div>
+                    `,
+                },
+                'optimizing-performance': {
+                    title: 'Optimizing Performance in Web Applications',
+                    image: './assets/images/home/mountain.jpg',
+                    description: `
+                        <div class="article-description">
+                            <p>Discover techniques for optimizing the performance of your web applications. This article covers strategies for reducing load times, enhancing responsiveness, and ensuring a smooth user experience.</p>
+                            <p>Performance optimization is key to providing a good user experience. Some techniques to optimize performance include:</p>
+                            <ul>
+                                <li>Minimizing HTTP requests by combining files and using image sprites.</li>
+                                <li>Compressing images and other assets to reduce file sizes.</li>
+                                <li>Using lazy loading for images and videos to defer loading until they are needed.</li>
+                                <li>Implementing caching strategies to store frequently accessed data locally.</li>
+                                <li>Optimizing JavaScript and CSS to reduce render-blocking resources.</li>
+                            </ul>
+                        </div>
+                    `,
+                },
+                'building-accessible-interfaces': {
+                    title: 'Building Accessible Web Interfaces',
+                    image: './assets/images/home/photography.jpg',
+                    description: `
+                        <div class="article-description">
+                            <p>Learn how to create accessible web interfaces that cater to all users, including those with disabilities.</p>
+                            <p>Accessibility is an essential aspect of web development. It ensures that all users, including those with disabilities, can use web applications effectively. Some ways to improve accessibility include:</p>
+                            <ul>
+                                <li>Using semantic HTML to provide meaningful structure to web content.</li>
+                                <li>Providing alternative text for images to assist screen readers.</li>
+                                <li>Ensuring sufficient color contrast for text and background elements.</li>
+                                <li>Implementing keyboard navigation for users who cannot use a mouse.</li>
+                                <li>Using ARIA (Accessible Rich Internet Applications) attributes to enhance the accessibility of dynamic content.</li>
+                            </ul>
+                        </div>
+                    `,
+                    
+                }
+            };
+
+            const hash = window.location.hash.substring(1);
+            if (articles[hash]) {
+                const article = articles[hash];
+                content.innerHTML = `
+                    <h1 class="article-title">${article.title}</h1>
+                    <img src="${article.image}" alt="${article.title}" class="article-image">
+                    ${article.description}
+                `;
+            } else {
+                content.innerHTML = '<p>Article not found.</p>';
+            }
+        });
+    </script>
+</body>
+</html>
