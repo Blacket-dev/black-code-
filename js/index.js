@@ -119,6 +119,13 @@ sections.forEach((sec) => {
 
 
 })
-
+document.getElementById("menu-toggle").onclick = function() {
+    var menu = document.getElementById("collapsed-header-items");
+    if (menu.style.display === "none" || menu.style.display === "") {
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
+};
 
 
