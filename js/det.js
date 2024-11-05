@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p>The redesign process involved extensive user research to understand pain points and preferences. Based on the findings, we simplified the navigation, making it easier for users to find products and complete their purchases. Additionally, we optimized the checkout process to reduce cart abandonment and improve conversion rates.</p>
                 <p>To ensure the success of the redesign, we conducted multiple rounds of user testing and feedback sessions. This iterative approach allowed us to refine the design and address any issues promptly. The result was a visually appealing, user-friendly e-commerce site that significantly improved customer engagement and sales.</p>
                   <br>
-                <p>Visit the project <a href="https://timelessfurniture-et.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">hereðŸ‘ˆðŸ»</a>.</p>
+                <p>Visit the project <a href="https://timelessfurniture-et.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">here 👈</a>.</p>
                 <br>
                 <p>Additional details about the e-commerce redesign project:</p>
                 <ul class="tw-list-disc tw-ml-6">
