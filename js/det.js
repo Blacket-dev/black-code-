@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <li>Implemented user authentication and authorization for secure access.</li>
                             <li>Conducted user testing sessions to gather feedback and refine the dashboard.</li>
                         </ul>
-                        <p>Visit the project <a href="https://justice-et.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">hereðŸ‘ˆðŸ»</a>.</p>
+                        <p>Visit the project <a href="https://justice-et.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">here 👈</a>.</p>
                     `,
                 },
                 'healthcare-booking': {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <li>Implemented email and SMS notifications for appointment reminders.</li>
                             <li>Ensured compliance with healthcare regulations and data privacy standards.</li>
                         </ul>
-                                 <p>Visit the project <a href="https://soulcafe.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">hereðŸ‘ˆðŸ»</a>.</p>
+                                 <p>Visit the project <a href="https://soulcafe.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">here 👈</a>.</p>
                     `,
                 },
                 'real-estate-platform': {
