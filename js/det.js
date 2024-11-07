@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     `,
                 },
                 'healthcare-booking': {
-                    title: 'Healthcare Appointment Booking System',
+                    title: 'soul cafe website',
                     description: `
                         <img src="./assets/images/pic1.png" alt="Healthcare Appointment Booking System" class="tw-w-full tw-h-auto tw-mb-4">
                 <p>Soul Café: A Cozy Corner for the Soul
