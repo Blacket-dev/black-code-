@@ -44,15 +44,17 @@ document.addEventListener("DOMContentLoaded", function() {
                     title: 'Healthcare Appointment Booking System',
                     description: `
                         <img src="./assets/images/pic1.png" alt="Healthcare Appointment Booking System" class="tw-w-full tw-h-auto tw-mb-4">
-                        <p>Developing a system to streamline appointment scheduling for healthcare providers. I designed and implemented an appointment booking system for a healthcare provider, improving the efficiency of their scheduling process and enhancing patient experience.</p>
-                        <p>Additional details about the healthcare booking system project:</p>
-                        <ul class="tw-list-disc tw-ml-6">
-                            <li>Analyzed the existing appointment scheduling process to identify inefficiencies.</li>
-                            <li>Designed a user-friendly interface for both patients and healthcare providers.</li>
-                            <li>Integrated a calendar system to display available appointment slots in real-time.</li>
-                            <li>Implemented email and SMS notifications for appointment reminders.</li>
-                            <li>Ensured compliance with healthcare regulations and data privacy standards.</li>
-                        </ul>
+                <p>Soul Café: A Cozy Corner for the Soul
+Soul Café is a virtual haven for coffee lovers and those seeking moments of tranquility. It's more than just a website; it's an online experience that evokes the warmth and comfort of a real-world café.
+My Contributions to Soul Café:
+User-Centric Design: I meticulously crafted a user-friendly interface that seamlessly guides visitors through the website, ensuring a smooth and enjoyable experience.
+Visually Appealing Aesthetics: By combining captivating imagery and a soothing color palette, I created a visually stunning website that reflects the café's serene ambiance.
+Responsive Design: I optimized the website for various devices, ensuring optimal viewing and interaction across desktops, tablets, and smartphones.
+SEO Optimization: I implemented SEO best practices to enhance the website's visibility in search engine results, attracting a wider audience of coffee enthusiasts.
+Content Creation: I collaborated with the content team to develop engaging blog posts and product descriptions that resonate with the target audience.
+E-commerce Integration: I integrated an e-commerce platform, allowing customers to conveniently purchase coffee beans, merchandise, and gift cards directly from the website.
+Social Media Integration: I seamlessly integrated social media feeds, fostering community engagement and encouraging interaction with the brand.
+By combining technical expertise with a keen eye for design, I contributed to creating a website that not only showcases the café's unique offerings but also invites visitors to immerse themselves in the Soul Café experience.</p>
                                  <p>Visit the project <a href="https://soulcafe.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">here 👈</a>.</p>
                     `,
                 },
