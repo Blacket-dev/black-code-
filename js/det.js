@@ -28,15 +28,19 @@ document.addEventListener("DOMContentLoaded", function() {
                 'financial-dashboard': {
                     title: 'Financial Dashboard for a Banking App',
                     description: `
-                        <img src="./assets/images/pic.png" alt="Financial Dashboard for a Banking App" class="tw-w-full tw-h-auto tw-mb-4">
-                        <p>Creating a comprehensive financial dashboard for better user insights. I developed a financial dashboard for a banking app, providing users with real-time insights into their financial health. The project required attention to detail and a focus on data visualization.</p>
-                        <p>Additional details about the financial dashboard project:</p>
-                        <ul class="tw-list-disc tw-ml-6">
-                            <li>Designed interactive charts and graphs to visualize key financial metrics.</li>
-                            <li>Developed API integrations to fetch real-time data from various financial institutions.</li>
-                            <li>Implemented user authentication and authorization for secure access.</li>
-                            <li>Conducted user testing sessions to gather feedback and refine the dashboard.</li>
-                        </ul>
+                        <img src="./assets/images/pic.png" alt="lawyer website" class="tw-w-full tw-h-auto tw-mb-4">
+                        <p><strong>Creating a Professional Lawyer Website for Client Engagement</strong></p>
+<p>I developed a modern and user-friendly website for a law firm, focusing on enhancing client engagement and providing easy access to legal services. The project emphasized seamless navigation, aesthetic design, and accessibility.</p>
+
+<p><strong>Additional details about the lawyer website project:</strong></p>
+<ul>
+  <li>Designed an intuitive user interface with clear call-to-action elements for client inquiries.</li>
+  <li>Developed a secure client portal for document uploads and case status tracking.</li>
+  <li>Integrated a booking system for scheduling consultations directly from the website.</li>
+  <li>Implemented SEO strategies to improve the firm's online visibility.</li>
+  <li>Conducted usability testing to ensure an optimal user experience.</li>
+</ul>
+
                         <p>Visit the project <a href="https://justice-et.netlify.app/" target="_blank" class="tw-text-blue-500 hover:tw-underline">here 👈</a>.</p>
                     `,
                 },
