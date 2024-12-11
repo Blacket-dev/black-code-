@@ -63,7 +63,7 @@ By combining technical expertise with a keen eye for design, I contributed to cr
                     `,
                 },
                 'real-estate-platform': {
-                    title: 'Real Estate Property Listing Platform',
+                    title: 'Real Estate Property Listing Platform (ongoing)',
                     description: `
                         <img src="./assets/images/home/real.webp" alt="Real Estate Property Listing Platform" class="tw-w-full tw-h-auto tw-mb-4">
                         <p>Building a platform for listing and searching real estate properties. I created a property listing platform for a real estate company, offering a seamless experience for users to search and explore properties.</p>
