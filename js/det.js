@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
 
                 'financial-dashboard': {
-                    title: 'Financial Dashboard for a Banking App',
+                    title: 'Lawyer Website',
                     description: `
                         <img src="./assets/images/pic.png" alt="lawyer website" class="tw-w-full tw-h-auto tw-mb-4">
                         <p><strong>Creating a Professional Lawyer Website for Client Engagement</strong></p>
