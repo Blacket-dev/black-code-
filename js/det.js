@@ -77,7 +77,7 @@ By combining technical expertise with a keen eye for design, I contributed to cr
                     `,
                 },
                 'education-portal': {
-                    title: 'Education Portal for Online Courses',
+                    title: 'Education Portal for Online Courses(ongoing)',
                     description: `
                         <img src="./assets/images/home/edu.jpeg" alt="Education Portal for Online Courses" class="tw-w-full tw-h-auto tw-mb-4">
                         <p>Developing an education portal to deliver online courses and resources. I developed an online education portal, providing students with access to a wide range of courses and learning materials. The project aimed to create an engaging and interactive learning environment.</p>
@@ -92,7 +92,7 @@ By combining technical expertise with a keen eye for design, I contributed to cr
                     `,
                 },
                 'travel-booking': {
-                    title: 'Travel Booking Website',
+                    title: 'Travel Booking Website(ongoing)',
                     description: `
                         <img src="./assets/images/home/travel.jpg" alt="Travel Booking Website" class="tw-w-full tw-h-auto tw-mb-4">
                        <p> <p>Designing a website to facilitate travel bookings and itinerary management. I designed and implemented a travel booking website, making it easy for users to plan and book their trips.</p>
