@@ -269,7 +269,7 @@ img{
 .project-highlight:hover {
     border: 2px solid transparent;
     background: linear-gradient(white, white) padding-box,
-                linear-gradient(90deg, #ff7e5f, #feb47b, #ff7e5f) border-box;
+                linear-gradient(90deg, #ffffff, #8b5e3c, #000000) border-box;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -288,7 +288,7 @@ img{
 
 /* Hover Effect: Smooth Gradient Fill, Glow, and Motion */
 .project-highlight:hover {
-    background: linear-gradient(90deg, #ff7e5f, #feb47b, #ff7e5f);
+    background: linear-gradient(90deg, #ffffff, #8b5e3c, #000000);
     animation: gradient-motion 3s linear infinite; /* Motion for gradient */
     color: white;
     border: 2px solid transparent;
