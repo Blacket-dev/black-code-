@@ -265,13 +265,13 @@ img{
     overflow: hidden;
 }
 
-/* Glowing Gradient on Hover */
+/* Glowing Gradient on Hover 
 .project-highlight:hover {
     border: 2px solid transparent;
     background: linear-gradient(white, white) padding-box,
                 linear-gradient(90deg, #ffffff, #8b5e3c, #000000) border-box;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-}
+}*/
 
 /* Default Style for Project Highlights */
 .project-highlight {
