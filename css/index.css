@@ -135,7 +135,9 @@ img{
     color: var(--footer-link-hover);
 }
 
-
+.footer{
+	border-radi
+}
 .review-container {
     position: relative;
     max-width: 600px;
@@ -207,122 +209,4 @@ img{
         color: black;
     }
     
-}
-
-
-/* Active Gradient Glow for Get in Touch Button
-.get-in-touch-button {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 20px;
-    border: 2px solid transparent;
-    background: linear-gradient(white, white) padding-box,
-                linear-gradient(90deg, #ff7e5f, #feb47b, #00f260, #22816d) border-box;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 30px;
-    overflow: hidden;
-    z-index: 1;
-    transition: all 0.3s ease;
-    animation: active-gradient 4s linear infinite; /* Active gradient animation */
-}
-
-.get-in-touch-button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    background: linear-gradient(90deg, #ff7e5f, #feb47b, #00f260, #22816d, #ff7e5f);
-    z-index: -1;
-    filter: blur(6px);
-    opacity: 1;
-}
-
-@keyframes active-gradient {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 100%;
-    }
-}
-
-/* Default Style for Project Highlights 
-.project-highlight {
-    position: relative;
-    padding: 20px;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    overflow: hidden;
-}*/
-
-/* Glowing Gradient on Hover 
-.project-highlight:hover {
-    border: 2px solid transparent;
-    background: linear-gradient(white, white) padding-box,
-                linear-gradient(90deg, #ffffff, #8b5e3c, #000000) border-box;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-}*/
-
-/* Default Style for Project Highlights */
-.project-highlight {
-    position: relative;
-    padding: 20px;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    color: black;
-    transition: all 0.5s ease;
-    overflow: hidden;
-}*/
-
-/* Hover Effect: Smooth Gradient Fill, Glow, and Motion 
-.project-highlight:hover {
-    background: linear-gradient(90deg, #ffffff, #8b5e3c, #000000);
-    animation: gradient-motion 3s linear infinite; /* Motion for gradient */
-    color: white;
-    border: 2px solid transparent;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 126, 95, 0.6);
-}
-*/
-*/
-/* Ensure Text and Links Are Visible */
-.project-highlight:hover h3,
-.project-highlight:hover p,
-.project-highlight:hover a {
-    color: white;
-}
-
-/* Link Styling */
-.project-highlight a {
-    color: black;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.project-highlight:hover a {
-    color: white;
-}
-
-/* Gradient Motion Animation */
-@keyframes gradient-motion {
-    0% {
-        background-position: 0%;
-    }
-    50% {
-        background-position: 50%;
-    }
-    100% {
-        background-position: 100%;
-    }
 }
