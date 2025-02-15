@@ -253,7 +253,7 @@ img{
     }
 }
 
-/* Default Style for Project Highlights */
+/* Default Style for Project Highlights 
 .project-highlight {
     position: relative;
     padding: 20px;
@@ -294,7 +294,7 @@ img{
     border: 2px solid transparent;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 126, 95, 0.6);
 }
-
+*/
 /* Ensure Text and Links Are Visible */
 .project-highlight:hover h3,
 .project-highlight:hover p,
