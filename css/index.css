@@ -263,7 +263,7 @@ img{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     overflow: hidden;
-}
+}*/
 
 /* Glowing Gradient on Hover 
 .project-highlight:hover {
@@ -284,9 +284,9 @@ img{
     color: black;
     transition: all 0.5s ease;
     overflow: hidden;
-}
+}*/
 
-/* Hover Effect: Smooth Gradient Fill, Glow, and Motion */
+/* Hover Effect: Smooth Gradient Fill, Glow, and Motion 
 .project-highlight:hover {
     background: linear-gradient(90deg, #ffffff, #8b5e3c, #000000);
     animation: gradient-motion 3s linear infinite; /* Motion for gradient */
@@ -294,6 +294,7 @@ img{
     border: 2px solid transparent;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 126, 95, 0.6);
 }
+*/
 */
 /* Ensure Text and Links Are Visible */
 .project-highlight:hover h3,
